@@ -43,8 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NodeDataForMaxSumOfSubSegment.cs" />
+    <Compile Include="Requests\GetPosRequest.cs" />
+    <Compile Include="Requests\GetSubSegmentsMaxValueRequest.cs" />
+    <Compile Include="Requests\GetSubSegmentWithMaxSumRequest.cs" />
+    <Compile Include="Requests\GetArrayPrefixEndIndexWithSumRequest.cs" />
+    <Compile Include="Requests\GetMinOfRangeRequest.cs" />
+    <Compile Include="Requests\GetSubSegmentsSumValueRequest.cs" />
+    <Compile Include="Requests\AssignRangeRequest.cs" />
+    <Compile Include="Requests\ModifyRangeRequest.cs" />
+    <Compile Include="Requests\ModifyValueRequest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requests\GetSumOfRangeRequest.cs" />
+    <Compile Include="SegmentTree.cs" />
+    <Compile Include="SegmentTreeLeafDataBuilders.cs" />
+    <Compile Include="SegmentTreeNodeDataBuilders.cs" />
+    <Compile Include="TreeHelpers.cs" />
+    <Compile Include="SegmentTreeStupidPrinter.cs" />
+    <Compile Include="SegmentTreeBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
